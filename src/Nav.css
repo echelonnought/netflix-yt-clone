@@ -1,0 +1,51 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 30px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav_show {
+  background-color: #111;
+}
+
+.nav_logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.nav_avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+}
+
+.avatar_log {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-items: end;
+}
+
+.avatar_log .sign_outTag {
+  display: none;
+  color: #fff;
+  position: absolute;
+  width: 100px;
+  top: 50px;
+  right: 10px;
+}
+
+.avatar_log:hover > .sign_outTag {
+  display: flex;
+  flex-direction: column;
+}
