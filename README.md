@@ -28,7 +28,7 @@ Another look alike project displaying movie cards with data coming from rapidAPI
 
 
 ## Running The Project Locally
- Git clone the project and run npm install to get the latest versions of the depenecies.
+ Clone the project and run npm install to get the latest versions of the depenecies.
  Then run, npm start.
  
 
